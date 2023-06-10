@@ -1,6 +1,6 @@
-//BFS
+// DFS
 // NLR
-//Iterative  approach
+// Iterative  approach
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
