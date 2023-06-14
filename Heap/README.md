@@ -16,8 +16,6 @@
 </ul>
 
 ```cpp
-// Heap Sort in C++
- 
 class Solution
 {
     public:
