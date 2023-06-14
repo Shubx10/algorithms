@@ -1,7 +1,7 @@
-# Takeaways
+# Takeaways 🚀
 <br>
 
->Complexity
+>Complexity of Heap Data Structure
 <ul>
   <li>Get Min or Max Element - O(1)
   <li>Remove Min or Max Element - O(log n)
