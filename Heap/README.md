@@ -55,3 +55,57 @@ class Solution
     }
 };
 ```
+<br>
+
+>Insertion and Deletion in Heap
+<ul>
+  <li> Time Complexity - O(log n)
+  <li> Space Complexity - O(n)
+</ul>
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+ 
+void heapify(vector<int> &heap, int i){
+ int size = heap.size();
+ int largest = i;
+ int l = 2 * i + 1;
+ int r = 2 * i + 2;
+ 
+ if (l < size && heap[l] > heap[largest])
+   largest = l;
+ if (r < size && heap[r] > heap[largest])
+   largest = r;
+ 
+ if (largest != i){
+   swap(heap[i], heap[largest]);
+   heapify(heap, largest);
+ }
+}
+ 
+void insert(vector<int> &heap, int newNum){
+ int size = heap.size();
+ 
+ if (size == 0)
+   heap.push_back(newNum);
+ else
+   heap.push_back(newNum);
+   for (int i = size / 2 - 1; i >= 0; i--)
+     heapify(heap, i);
+}
+ 
+void deleteNode(vector<int> &heap, int num){
+ int size = heap.size();
+ int i;
+ 
+ for (i = 0; i < size; i++)
+   if (num == heap[i])
+     break;
+  
+ swap(heap[i], heap[size - 1]);
+ heap.pop_back();
+ for (int i = size / 2 - 1; i >= 0; i--)
+   heapify(heap, i);
+}
+```
