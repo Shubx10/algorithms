@@ -3,6 +3,7 @@
 
 >Complexity of Heap Data Structure
 <ul>
+  <li>Build Heap - O(n)
   <li>Get Min or Max Element - O(1)
   <li>Remove Min or Max Element - O(log n)
   <li>Insert an Element - O(log n)
