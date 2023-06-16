@@ -68,4 +68,5 @@ int main() {
 
     cout << "The sorted array is: \n";
     print_Array(arr, n);
+    return 0;
 }
