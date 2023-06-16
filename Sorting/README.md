@@ -56,3 +56,29 @@ void insertionSort(int arr[], int n){
     }
 }
 ```
+<br>
+
+>Selection Sort
+<ul>
+    <li>Best Case Complexity - O($n^2$)</li>
+    <li>Average Case Complexity - O($n^2$)</li>
+    <li>Worst Case Complexity - O($n^2$)</li>
+    <li>Space Complexity - O(1)</li>
+    <li>Unstable Algorithm</li>
+    <li>In-place Algorithm</li>
+</ul>
+
+```cpp
+void selectionSort(int arr[], int size){
+    int i, j, minIndex;
+    for (i = 0; i < size - 1; i++){
+        minIndex = i;
+        for (j = i + 1; j < size; j++){
+            if (arr[j] < arr[minIndex]){
+                minIndex = j;
+            }
+        }
+        swap(arr[minIndex], arr[i]);
+    }
+}
+```
