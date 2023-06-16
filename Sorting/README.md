@@ -82,3 +82,57 @@ void selectionSort(int arr[], int size){
     }
 }
 ```
+<br>
+
+>Merge Sort
+<ul>
+    <li>Best Case Complexity - O(n logn)</li>
+    <li>Average Case Complexity - O(n logn)</li>
+    <li>Worst Case Complexity - O(n logn)</li>
+    <li>Space Complexity - O(n)</li>
+    <li>Stable Algorithm</li>
+    <li>Out-place Algorithm</li>
+</ul>
+
+```cpp
+void merge(int arr[], int low, int mid, int high){
+    int i = 0, j = 0, k = low;
+    int lengthLeft = mid - low + 1;
+    int lengthRight = high - mid;
+
+    int arrLeft[lengthLeft], arrRight[lengthRight];
+
+    for(int a = 0; a < lengthLeft; a++){
+        arrLeft[a] = arr[low + a];
+    }
+    for(int a = 0; a < lengthRight; a++){
+        arrRight[a] = arr[mid + 1 + a];
+    }
+
+    while(i < lengthLeft && j < lengthRight){
+        if(arrLeft[i] <= arrRight[j]) {
+            arr[k++] = arrLeft[i++];
+        }else{
+            arr[k++] = arrRight[j++];
+        }
+    }
+
+    while(i < lengthLeft){
+        arr[k++] = arrLeft[i++];
+    }
+
+    while(j < lengthRight){
+        arr[k++] = arrRight[j++];
+    }
+}
+
+void mergeSort(int arr[], int low, int high){
+    int mid;
+    if(low < high){
+        mid = (low + high) / 2;
+        mergeSort(arr, low, mid);
+        mergeSort(arr, mid + 1, high);
+        merge(arr, low, mid, high);
+    }
+}
+```
