@@ -136,3 +136,37 @@ void mergeSort(int arr[], int low, int high){
     }
 }
 ```
+<br>
+
+>Quick Sort
+<ul>
+    <li>Best Case Complexity - O(n logn)</li>
+    <li>Average Case Complexity - O(n logn)</li>
+    <li>Worst Case Complexity - O($n^2$)</li>
+    <li>Space Complexity - O(1)</li>
+    <li>Unstable Algorithm</li>
+    <li>In-place Algorithm</li>
+</ul>
+
+```cpp
+int partition(int arr[], int low, int high, int pivot){
+    int PIndex = low;
+    for (int i = low; i <= high; i++){
+        if (arr[i] <= pivot){
+            swap(arr[PIndex], arr[i]);
+            PIndex++;
+        }
+    }
+    PIndex--;
+    return PIndex;
+}
+
+void quickSort(int arr[], int low, int high){
+    if (low < high){
+        int pivot = arr[high];
+        int PIndex = partition(arr, low, high, pivot);
+        quickSort(arr, low, PIndex - 1);
+        quickSort(arr, PIndex + 1, high);
+    }
+}
+```
