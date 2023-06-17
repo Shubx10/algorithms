@@ -9,7 +9,13 @@
 </ul>
 <br>
 
-<a href="">2. Finding maximum and minimum</a><br>
+><a href="">2. Finding maximum and minimum</a><br>
+<ul>
+  <li>Time Complexity - O(n)</li>
+  <li>Space Complexity - O(n)</li>
+</ul>
+<br>
+
 ><a href="https://github.com/Shubx10/Algorithms/blob/main/Sorting/MergeSort.cpp">3. Merge Sort</a><br>
 <ul>
     <li>Best Case Complexity - O(n logn)</li>
