@@ -12,7 +12,7 @@
 ><a href="https://github.com/Shubx10/Algorithms/blob/main/DAC/MinMax.cpp">2. Finding maximum and minimum</a><br>
 <ul>
   <li>Time Complexity - O(n)</li>
-  <li>Space Complexity - O(n)</li>
+  <li>Space Complexity - O(log n)</li>
 </ul>
 <br>
 
