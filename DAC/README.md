@@ -10,7 +10,17 @@
 <br>
 
 <a href="">2. Finding maximum and minimum</a><br>
-<a href="https://github.com/Shubx10/Algorithms/blob/main/Sorting/MergeSort.cpp">3. Merge Sort</a><br>
+><a href="https://github.com/Shubx10/Algorithms/blob/main/Sorting/MergeSort.cpp">3. Merge Sort</a><br>
+<ul>
+    <li>Best Case Complexity - O(n logn)</li>
+    <li>Average Case Complexity - O(n logn)</li>
+    <li>Worst Case Complexity - O(n logn)</li>
+    <li>Space Complexity - O(n)</li>
+    <li>Stable Algorithm</li>
+    <li>Out-place Algorithm</li>
+</ul>
+<br>
+
 <a href="https://github.com/Shubx10/Algorithms/blob/main/Sorting/QuickSort.cpp">4. Quick Sort</a><br>
 <a href="">5. Strassens's Matrix Multiplication</a><br>
   
