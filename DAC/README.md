@@ -21,6 +21,16 @@
 </ul>
 <br>
 
-<a href="https://github.com/Shubx10/Algorithms/blob/main/Sorting/QuickSort.cpp">4. Quick Sort</a><br>
+><a href="https://github.com/Shubx10/Algorithms/blob/main/Sorting/QuickSort.cpp">4. Quick Sort</a><br>
+<ul>
+    <li>Best Case Complexity - O(n logn)</li>
+    <li>Average Case Complexity - O(n logn)</li>
+    <li>Worst Case Complexity - O($n^2$)</li>
+    <li>Space Complexity - O(log n)</li>
+    <li>Unstable Algorithm</li>
+    <li>In-place Algorithm</li>
+</ul>
+<br>
+
 <a href="">5. Strassens's Matrix Multiplication</a><br>
   
