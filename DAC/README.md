@@ -38,5 +38,9 @@
 </ul>
 <br>
 
-<a href="">5. Strassens's Matrix Multiplication</a><br>
+><a href="">5. Strassens's Matrix Multiplication</a><br>
+<ul>
+  <li>Time Complexity - </li>
+  <li>Space Complexity - </li>
+</ul>
   
