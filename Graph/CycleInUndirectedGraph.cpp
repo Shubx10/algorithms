@@ -8,25 +8,25 @@ void preparedAdjList(unordered_map<int, vector<int>> &adjList, vector<pair<int, 
     }
 }
 
-bool iscyclicBFS(int src, unordered_map<int, bool> &visited, unordered_map<int, vector<int>> adjList){
-    unordered_map<int, int> parent;
-    parent[src] = -1;
-    visited[src] = 1;
+bool iscyclicBFS(int node, unordered_map<int, bool> &visited, unordered_map<int, vector<int>> adjList){
+    visited[node] = true;
     queue<int> q;
-    q.push(src);
+    q.push(node);
     while(!q.empty()){
         int front = q.front();
         q.pop();
-        
+        int count = 0;
         for(auto neighbour: adjList[front]){
-            if(visited[neighbour] == true && neighbour != parent[front]){
-                return true;
-            }
-            else if(!visited[neighbour]){
+            if(!visited[neighbour]){
                 q.push(neighbour);
-                visited[neighbour] = 1;
-                parent[neighbour] = front;
+                visited[neighbour] = true;
             }
+            else{
+                count++;
+            }
+        }
+        if(count >= 2){
+            return true;
         }
     }
     return false;
