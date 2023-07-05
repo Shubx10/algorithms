@@ -1,4 +1,4 @@
-void topoSort(int node, vector<bool> &visited, stack<int> &s, vector<int> adj[]){
+void topoSort(int node, vector<bool> &visited, stack<int> &s, vector<vector<int>> &adj){
     visited[node] = 1;
     for(auto neighbour: adj[node]){
         if(!visited[neighbour]){
@@ -7,9 +7,9 @@ void topoSort(int node, vector<bool> &visited, stack<int> &s, vector<int> adj[])
     }
     s.push(node);
 }
-vector<int> topologicalSort(vector<vector<int>> &edges, int v){
-    vector<int> adj[v];
-    vector<bool> visited(v);
+vector<int> topologicalSort(int vertex, vector<vector<int>> &edges){
+    vector<vector<int>> adj(vertex);
+    vector<bool> visited(vertex);
     stack<int> s;
 
     for(int i = 0; i < edges.size(); ++i){
@@ -18,7 +18,7 @@ vector<int> topologicalSort(vector<vector<int>> &edges, int v){
         adj[u].push_back(v);
     }
 
-    for(int i = 0; i < v; ++i){
+    for(int i = 0; i < vertex; ++i){
         if(!visited[i]){
             topoSort(i, visited, s, adj);
         }
