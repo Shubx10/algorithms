@@ -17,10 +17,10 @@ bool checkCycleDFS(int node, vector<bool> &visited, vector<bool> &dfsvisited, ve
     return false;
 }
 
-int detectCycleInDirectedGraph(int v, vector<pair<int, int>> &edges){
-    vector<vector<int>> adj(v);
-    vector<bool> visited(v);
-    vector<bool> dfsvisited(v);
+int detectCycleInDirectedGraph(int vertex, vector<pair<int, int>> &edges){
+    vector<vector<int>> adj(vertex);
+    vector<bool> visited(vertex);
+    vector<bool> dfsvisited(vertex);
 
     for(int i = 0; i < edges.size(); ++i){
         int u = edges[i].first;
@@ -28,7 +28,7 @@ int detectCycleInDirectedGraph(int v, vector<pair<int, int>> &edges){
         adj[u].push_back(v);
     }
     
-    for(int i = 0; i < v; ++i){
+    for(int i = 0; i < vertex; ++i){
         if(!visited[i]){
             bool cyclefound = checkCycleDFS(i, visited, dfsvisited, adj);
             if(cyclefound){
