@@ -17,7 +17,7 @@ bool checkCycleDFS(int node, vector<bool> &visited, vector<bool> &dfsvisited, ve
     return false;
 }
 
-int detectCycleInDirectedGraph(int vertex, vector<pair<int, int>> &edges){
+bool detectCycleInDirectedGraph(int vertex, vector<pair<int, int>> &edges){
     vector<vector<int>> adj(vertex);
     vector<bool> visited(vertex);
     vector<bool> dfsvisited(vertex);
