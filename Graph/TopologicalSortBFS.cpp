@@ -1,7 +1,7 @@
 // Kahn's Algorithm
-vector<int> topologicalSort(vector<vector<int>> &edges, int v){
-    vector<int> adj[v];
-    vector<int> indegree(v);
+vector<int> topologicalSort(int vertex, vector<vector<int>> &edges){
+    vector<vector<int>> adj(vertex);
+    vector<int> indegree(vertex);
     queue<int> q;
     vector<int> ans;
 
@@ -11,13 +11,13 @@ vector<int> topologicalSort(vector<vector<int>> &edges, int v){
         adj[u].push_back(v);
     }
 
-    for(int i = 0; i < v; ++i){
+    for(int i = 0; i < vertex; ++i){
         for(auto j: adj[i]){
             indegree[j]++;
         }
     }
 
-    for(int i = 0; i < v; ++i){
+    for(int i = 0; i < vertex; ++i){
         if(indegree[i] == 0){
             q.push(i);
         }
