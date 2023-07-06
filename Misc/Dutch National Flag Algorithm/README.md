@@ -19,7 +19,7 @@ Input: nums = [2,0,1]
 Output: [0,1,2]
 ```
 
-## Algorithm
+## Code
 ```cpp
 class Solution {
 public:
