@@ -8,7 +8,7 @@
 ```cpp
 class Solution{
 public:
-	void shortestDistance(vector<vector<int>> &matrix){
+	void floydWarshall(vector<vector<int>> &matrix){
 		int n = matrix.size();
 		for(int i = 0; i < n; i++){
 			for(int j = 0; j < n; j++){
@@ -22,7 +22,9 @@ public:
 		for(int k = 0; k < n; k++){
 			for(int i = 0; i < n; i++){
 				for(int j = 0; j < n; j++){
-					matrix[i][j] = min(matrix[i][j], matrix[i][k] + matrix[k][j]);
+					if(matrix[i][k] != 1e9 && matrix[k][j] != 1e9){
+                        matrix[i][j] = min(matrix[i][j], matrix[i][k] + matrix[k][j]);
+					}
 				}
 			}
 		}
