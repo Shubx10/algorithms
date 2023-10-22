@@ -13,3 +13,4 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/135.%20Candy.cpp">135. Candy</a><br>
 <a href="https://github.com/Shubx10/Algorithms/blob/main/Leetcode_Hard/239.%20SlidingWindowMaximum.cpp">239. Sliding Window Maximum</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1095.%20FindInMountainArray.cpp">1095. Find In Mountain Array</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1793.%20MaximumScoreOfaGoodSubarray.cpp">1793. Maximum Score Of a Good Subarray</a><br>
