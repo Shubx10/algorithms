@@ -18,3 +18,4 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1095.%20FindInMountainArray.cpp">1095. Find In Mountain Array</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1463.%20CherryPickupII.cpp">1463. Cherry Pickup II</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1793.%20MaximumScoreOfaGoodSubarray.cpp">1793. Maximum Score Of a Good Subarray</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/2642.%20DesignGraphWithShortestPathCalculator.cpp">2642. Design Graph With Shortest Path Calculator</a><br>
