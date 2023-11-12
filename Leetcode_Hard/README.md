@@ -15,6 +15,7 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/154.%20FindMinimumInRotatedSortedArrayII.cpp">154. Find Minimum in Rotated Sorted Array II</a><br>
 <a href="https://github.com/Shubx10/Algorithms/blob/main/Leetcode_Hard/239.%20SlidingWindowMaximum.cpp">239. Sliding Window Maximum</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/381.%20InsertDeleteGetRandomO(1)-DuplicatesAllowed.cpp">381. Insert Delete GetRandom O(1) - Duplicates Allowed</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/815.%20BusRoutes.cpp">815. Bus Routes</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1095.%20FindInMountainArray.cpp">1095. Find In Mountain Array</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1463.%20CherryPickupII.cpp">1463. Cherry Pickup II</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1793.%20MaximumScoreOfaGoodSubarray.cpp">1793. Maximum Score Of a Good Subarray</a><br>
