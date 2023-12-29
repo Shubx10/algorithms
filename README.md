@@ -1,2 +1,1 @@
-# Algorithms || Codes || Chill🥱
-<hr>
+# `Algorithms || Codes || Chill`🥱🐧
