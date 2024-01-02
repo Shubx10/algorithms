@@ -48,3 +48,31 @@ public:
     }
 };
 ```
+<h3><a href="https://leetcode.com/problems/maximum-sum-circular-subarray/">3. Largest Sum Subarray of Size at least K</a></h3>
+
+> Given an array `a` of length `n` and a number `k`, find the largest sum of the subarray containing `at least k` numbers.
+
+```cpp
+class Solution {
+public:    
+    long long int maxSumWithK(vector<long long int>& a, long long int n, long long int k) {
+        vector<long long int> pref(n);
+        long long int sum = 0, maxi = LONG_MIN;
+        for(int i = 0; i < n; ++i){
+            sum += a[i];
+            pref[i] = sum;
+            if(sum < 0) sum = 0;
+        }
+        sum = 0;
+        for(int i = 0; i < k; ++i) sum += a[i];
+        maxi = max(maxi, sum);
+        for(int j = k; j < n; ++j){
+            sum += a[j];
+            sum -= a[j - k];
+            maxi = max(maxi, sum);
+            maxi = max(maxi, sum + pref[j - k]);
+        }
+        return maxi;
+    }
+};
+```
