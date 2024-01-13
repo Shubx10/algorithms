@@ -2,6 +2,7 @@
 <br>
 <a href="https://github.com/Shubx10/Algorithms/blob/main/Leetcode_Hard/4.%20MedianOfTwoSortedArrays.cpp">4. Median of Two Sorted Arrays</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/23.%20MergeKSortedLists.cpp">23. Merge k Sorted Lists</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/32.%20LongestValidParentheses.cpp">32. Longest Valid Parentheses</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/41.%20FirstMissingPositive.cpp">41. First Missing Positive</a><br>
 <a href="https://github.com/Shubx10/Algorithms/blob/main/Leetcode_Hard/42.%20TrappingRainWater.cpp">42. Trapping Rain Water</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/44.%20WildcardMatching.cpp">44. Wildcard Matching</a><br>
