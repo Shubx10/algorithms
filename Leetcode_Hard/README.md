@@ -30,4 +30,5 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1312.%20MinimumInsertionStepsToMakeAStringPalindrome.cpp">1312. Minimum Insertion Steps to Make a String Palindrome</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1463.%20CherryPickupII.cpp">1463. Cherry Pickup II</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1793.%20MaximumScoreOfaGoodSubarray.cpp">1793. Maximum Score Of a Good Subarray</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1944.%20NumberOfVisiblePeopleInAQueue.cpp">1944. Number of Visible People in a Queue</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/2642.%20DesignGraphWithShortestPathCalculator.cpp">2642. Design Graph With Shortest Path Calculator</a><br>
