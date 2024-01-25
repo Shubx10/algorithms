@@ -1,4 +1,4 @@
-# Kadane's Algorithm and it's variations
+# 🚀Kadane's Algorithm and it's variations
 <ul>
   <li>Time Complexity - O(n)</li>
   <li>Space Complexity - O(1)</li>
@@ -73,6 +73,31 @@ public:
             maxi = max(maxi, sum + pref[j - k]);
         }
         return maxi;
+    }
+};
+```
+<h3><a href="https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/">4. Maximum Absolute Sum of Any Subarray</a></h3>
+
+> You are given an integer array nums. The absolute sum of a subarray `[numsl, numsl+1, ..., numsr-1, numsr]` is `abs(numsl + numsl+1 + ... + numsr-1 + numsr)`.
+
+> Return the maximum absolute sum of any (possibly empty) subarray of nums.
+
+```cpp
+class Solution {
+public:
+    int maxAbsoluteSum(vector<int>& nums) {
+        int n = nums.size();
+        int maxi = nums[0], mini = nums[0];
+        int sum1 = 0, sum2 = 0;
+        for(int i = 0; i < n; ++i){
+            sum1 += nums[i];
+            sum2 += nums[i];
+            maxi = max(maxi, sum1);
+            mini = min(mini, sum2);
+            if(sum1 < 0) sum1 = 0;
+            if(sum2 > 0) sum2 = 0;
+        }
+        return max(maxi, abs(mini));
     }
 };
 ```
