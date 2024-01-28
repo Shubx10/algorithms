@@ -23,6 +23,7 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/381.%20InsertDeleteGetRandomO(1)-DuplicatesAllowed.cpp">381. Insert Delete GetRandom O(1) - Duplicates Allowed</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/446.%20ArithmeticSlicesII-Subsequence.cpp">446. Arithmetic Slices II - Subsequence</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/815.%20BusRoutes.cpp">815. Bus Routes</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1074.%20NumberOfSubmatricesThatSumToTarget.cpp">1074. Number of Submatrices That Sum to Target</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1092.%20ShortestCommonSupersequence.cpp">1092. Shortest Common Supersequence</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1095.%20FindInMountainArray.cpp">1095. Find In Mountain Array</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1235.%20MaximumProfitInJobScheduling.cpp">1235. Maximum Profit in Job Scheduling</a><br>
