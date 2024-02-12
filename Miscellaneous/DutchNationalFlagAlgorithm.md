@@ -1,4 +1,4 @@
-# Dutch National Flag Algorithm 
+## 🚀Dutch National Flag Algorithm 
 
 <ul>
   <li> Time Complexity - O(n)
