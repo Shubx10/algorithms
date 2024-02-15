@@ -1,3 +1,4 @@
+// Inorder Traversal of a BST is sorted
 class Solution {
 public:
     void inorder(TreeNode* root, int& ans, int& cnt, int k){
