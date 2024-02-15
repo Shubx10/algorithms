@@ -5,3 +5,4 @@
 <a href="https://leetcode.com/problems/delete-node-in-a-bst/description/">3. Delete node in a BST</a><br>
 <a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/">4. Kth Smallest Element in a BST</a><br>
 <a href="https://leetcode.com/problems/validate-binary-search-tree/description/">5. Validate BST</a><br>
+<a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/">6. Lowest Common Ancestor of a BST</a><br>
