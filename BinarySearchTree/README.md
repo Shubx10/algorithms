@@ -6,3 +6,4 @@
 <a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/">4. Kth Smallest Element in a BST</a><br>
 <a href="https://leetcode.com/problems/validate-binary-search-tree/description/">5. Validate BST</a><br>
 <a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/">6. Lowest Common Ancestor of a BST</a><br>
+<a href="https://www.geeksforgeeks.org/problems/predecessor-and-successor/1">7. Predecessor and Successor in BST</a><br>
