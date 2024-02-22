@@ -1,3 +1,5 @@
+// Topological sort is only valid for directed acyclic graph(DAG)
+// A topological sort is a graph traversal in which each node v is visited only after all its dependencies are visited.
 void topoSort(int node, vector<bool> &visited, stack<int> &s, vector<vector<int>> &adj){
     visited[node] = 1;
     for(auto neighbour: adj[node]){
