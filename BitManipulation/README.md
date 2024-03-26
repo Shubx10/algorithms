@@ -72,7 +72,7 @@ int clearKthBit(int n, int k){
 ```cpp
 // TC = O(1)
 // SC = O(1)
-int ToggleKthBit(int n, int k){
+int toggleKthBit(int n, int k){
     return (n ^ (1 << k));
 }
 ```
@@ -81,7 +81,30 @@ int ToggleKthBit(int n, int k){
 ```cpp
 // TC = O(1)
 // SC = O(1)
-int ClearRightmostBit(int n){
+int clearRightmostBit(int n){
     return (n & (n - 1));
+}
+```
+
+## 🚀Power of two
+```cpp
+// TC = O(1)
+// SC = O(1)
+bool isPowerOfTwo(int n){
+    return (n & (n - 1)) == 0;
+}
+```
+
+## 🚀Count set bits
+```cpp
+// TC = O(log n)
+// SC = O(1)
+int countSetBits(int n){
+    int cnt = 0;
+    while(n){
+        cnt += n & 1;
+        n >>= 1;
+    }
+    return cnt;
 }
 ```
