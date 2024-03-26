@@ -58,3 +58,30 @@ int setKthBit(int n, int k){
     return (n | (1 << k));
 }
 ```
+
+## 🚀Clear kth bit
+```cpp
+// TC = O(1)
+// SC = O(1)
+int clearKthBit(int n, int k){
+    return (n & (~(1 << k)));
+}
+```
+
+## 🚀Toggle kth bit
+```cpp
+// TC = O(1)
+// SC = O(1)
+int ToggleKthBit(int n, int k){
+    return (n ^ (1 << k));
+}
+```
+
+## 🚀Clear rightmost set bit
+```cpp
+// TC = O(1)
+// SC = O(1)
+int ClearRightmostBit(int n){
+    return (n & (n - 1));
+}
+```
