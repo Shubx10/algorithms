@@ -33,3 +33,19 @@ int binaryToDecimal(int n){
     return dec_value;
 }
 ```
+
+## 🚀Check whether kth bit is set or not
+```cpp
+// TC = O(1)
+// SC = O(1)
+bool checkKthBit(int n, int k){
+    return (n & (1 << k)) != 0;
+}
+```
+```cpp
+// TC = O(1)
+// SC = O(1)
+bool checkKthBit(int n, int k){
+    return ((n >> k) & 1) != 0;
+}
+```
