@@ -49,3 +49,12 @@ bool checkKthBit(int n, int k){
     return ((n >> k) & 1) != 0;
 }
 ```
+
+## 🚀Set kth bit
+```cpp
+// TC = O(1)
+// SC = O(1)
+int setKthBit(int n, int k){
+    return (n | (1 << k));
+}
+```
