@@ -1,35 +1,26 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
-        vector<int> nsr(heights.size()), nsl(heights.size());
+        int n = heights.size();
+        vector<int> nsr(n), nsl(n);
         stack<int> str, stl;
-        for(int i=heights.size()-1; i>=0; --i){
-            if(str.empty()){
-                nsr[i] = heights.size();
-            }else{
-                while(!str.empty() && heights[str.top()]>=heights[i]){
-                    str.pop();
-                }
-                if(str.empty()) nsr[i] = heights.size();
-                else nsr[i] = str.top();
+        for(int i = n - 1; i >= 0; --i){
+            while(!str.empty() && heights[str.top()] >= heights[i]){
+                str.pop();
             }
+            nsr[i] = str.empty() ? n : str.top();
             str.push(i);
         }
-        for(int i=0; i<heights.size(); ++i){
-            if(stl.empty()){
-                nsl[i] = -1;
-            }else{
-                while(!stl.empty() && heights[stl.top()]>=heights[i]){
-                    stl.pop();
-                }
-                if(stl.empty()) nsl[i] = -1;
-                else nsl[i] = stl.top();
+        for(int i = 0; i < n; ++i){
+            while(!stl.empty() && heights[stl.top()] >= heights[i]){
+                stl.pop();
             }
+            nsl[i] = stl.empty() ? -1 : stl.top();
             stl.push(i);
         }
         int maxi = 0;
-        for(int i=0; i<heights.size(); ++i){
-            int area = heights[i] * (nsr[i] - nsl[i] -1);
+        for(int i = 0; i < n; ++i){
+            int area = heights[i] * (nsr[i] - nsl[i] - 1);
             maxi = max(maxi, area);
         }
         return maxi;
