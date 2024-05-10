@@ -95,45 +95,37 @@ void selectionSort(int arr[], int size){
 </ul>
 
 ```cpp
-void merge(int arr[], int low, int mid, int high){
-    int i = 0, j = 0, k = low;
-    int lengthLeft = mid - low + 1;
-    int lengthRight = high - mid;
-
-    int arrLeft[lengthLeft], arrRight[lengthRight];
-
-    for(int a = 0; a < lengthLeft; a++){
-        arrLeft[a] = arr[low + a];
-    }
-    for(int a = 0; a < lengthRight; a++){
-        arrRight[a] = arr[mid + 1 + a];
-    }
-
-    while(i < lengthLeft && j < lengthRight){
-        if(arrLeft[i] <= arrRight[j]) {
-            arr[k++] = arrLeft[i++];
+void merge(int nums[], int low, int mid, int high){
+    int size = high - low + 1;
+    int temp[size];
+    int left = low, right = mid + 1, k = 0;
+    while(left <= mid && right <= high){
+        if(nums[left] <= nums[right]){
+            temp[k++] = nums[left++];
         }else{
-            arr[k++] = arrRight[j++];
+            temp[k++] = nums[right++];
+
         }
     }
-
-    while(i < lengthLeft){
-        arr[k++] = arrLeft[i++];
+    while(left <= mid){
+        temp[k++] = nums[left++];
     }
-
-    while(j < lengthRight){
-        arr[k++] = arrRight[j++];
+    while(right <= high){
+        temp[k++] = nums[right++];
+    }
+    int p = 0;
+    for(int i = low; i <= high; ++i){
+        nums[i] = temp[p++];
     }
 }
-
-void mergeSort(int arr[], int low, int high){
-    int mid;
-    if(low < high){
-        mid = (low + high) / 2;
-        mergeSort(arr, low, mid);
-        mergeSort(arr, mid + 1, high);
-        merge(arr, low, mid, high);
+void mergeSort(int nums[], int low, int high){
+    if(low >= high){
+        return;
     }
+    int mid = (low + high) / 2;
+    mergeSort(nums, low, mid);
+    mergeSort(nums, mid + 1, high);
+    merge(nums, low, mid, high);
 }
 ```
 <br>
