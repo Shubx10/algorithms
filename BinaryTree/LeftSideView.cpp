@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void leftView(TreeNode* root, vector<int> &ans, int level){
+    void leftView(TreeNode* root, vector<int>& ans, int level){
         if(root == NULL) return;
         if(ans.size() == level){
             ans.push_back(root->val);
