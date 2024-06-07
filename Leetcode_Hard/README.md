@@ -9,6 +9,7 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/44.%20WildcardMatching.cpp">44. Wildcard Matching</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/51.%20N-Queens.cpp">51. N-Queens</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/52.%20N-QueensII.cpp">52. N-Queens II</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/68.%20TextJustification.cpp">68. Text Justification</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/76.%20MinimumWindowSubstring.cpp">76. Minimum Window Substring</a><br>
 <a href="https://github.com/Shubx10/Algorithms/blob/main/Leetcode_Hard/84.%20LargestRectangleInHistogram.cpp">84. Largest Rectangle in Histogram</a><br>
 <a href="https://github.com/Shubx10/Algorithms/blob/main/Leetcode_Hard/85.%20MaximalRectangle.cpp">85. Maximal Rectangle</a><br>
