@@ -29,6 +29,7 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/381.%20InsertDeleteGetRandomO(1)-DuplicatesAllowed.cpp">381. Insert Delete GetRandom O(1) - Duplicates Allowed</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/446.%20ArithmeticSlicesII-Subsequence.cpp">446. Arithmetic Slices II - Subsequence</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/493.%20ReversePairs.cpp">493. Reverse Pairs</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/502.%20IPO.cpp">502. IPO</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/815.%20BusRoutes.cpp">815. Bus Routes</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/857.%20MinimumCostToHireKWorkers.cpp">857. Minimum Cost to Hire K Workers</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/992.%20SubarraysWithKDifferentIntegers.cpp">992. Subarrays with K Different Integers</a><br>
