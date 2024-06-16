@@ -26,6 +26,7 @@
 <a href="https://github.com/Shubx10/Algorithms/blob/main/Leetcode_Hard/239.%20SlidingWindowMaximum.cpp">239. Sliding Window Maximum</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/295.%20FindMedianFromDataStream.cpp">295. Find Median from Data Stream</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/297.%20SerializeAndDeserializeBinaryTree.cpp">297. Serialize and Deserialize Binary Tree</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/330.%20PatchingArray.cpp">330. Patching Array</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/381.%20InsertDeleteGetRandomO(1)-DuplicatesAllowed.cpp">381. Insert Delete GetRandom O(1) - Duplicates Allowed</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/446.%20ArithmeticSlicesII-Subsequence.cpp">446. Arithmetic Slices II - Subsequence</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/493.%20ReversePairs.cpp">493. Reverse Pairs</a><br>
