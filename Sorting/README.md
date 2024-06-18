@@ -3,7 +3,7 @@
 
 >Bubble Sort
 <ul>
-    <li>Best Case Complexity - O(n)</li>
+    <li>Best Case Complexity - O(n) - when list is already sorted</li>
     <li>Average Case Complexity - O($n^2$)</li>
     <li>Worst Case Complexity - O($n^2$)</li>
     <li>Space Complexity - O(1)</li>
@@ -31,7 +31,7 @@ void bubbleSort(int arr[], int n){
 
 >Insertion Sort
 <ul>
-    <li>Best Case Complexity - O(n)</li>
+    <li>Best Case Complexity - O(n) - when list is already sorted</li>
     <li>Average Case Complexity - O($n^2$)</li>
     <li>Worst Case Complexity - O($n^2$)</li>
     <li>Space Complexity - O(1)</li>
@@ -41,18 +41,12 @@ void bubbleSort(int arr[], int n){
 
 ```cpp
 void insertionSort(int arr[], int n){
-    int i, j;
-    for(i = 1; i < n; i++) {
-        int var = arr[i];
-        for(j = i - 1; j >= 0; j--){
-            if(arr[j] > var){
-                arr[j + 1] = arr[j];
-            }
-            else{
-                break;
-            }
+    for(int i = 0; i < n; ++i){
+        int j = i;
+        while(j > 0 && arr[j - 1] > arr[j]){
+            swap(arr[j - 1], arr[j]);
+            j--;
         }
-        arr[j + 1] = var;
     }
 }
 ```
