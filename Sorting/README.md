@@ -127,29 +127,32 @@ void mergeSort(int nums[], int low, int high){
 <ul>
     <li>Best Case Complexity - O(n logn)</li>
     <li>Average Case Complexity - O(n logn)</li>
-    <li>Worst Case Complexity - O($n^2$)</li>
-    <li>Space Complexity - O(log n)</li>
+    <li>Worst Case Complexity - O($n^2$) - This case occurs when pivot is either the greatest or smallest element of the array.</li>
+    <li>Space Complexity - O(log n) in average case | O(n) in worst case</li>
     <li>Unstable Algorithm</li>
     <li>In-place Algorithm</li>
 </ul>
 
 ```cpp
-int partition(int arr[], int low, int high, int pivot){
-    int PIndex = low;
-    for (int i = low; i <= high; i++){
-        if (arr[i] <= pivot){
-            swap(arr[PIndex], arr[i]);
-            PIndex++;
+int partition(int arr[], int low, int high){
+    int pivot = arr[low];
+    int i = low, j = high;
+    while(i < j){
+        while(arr[i] <= pivot && i <= high - 1){
+            i++;
         }
+        while(arr[j] > pivot && j >= low + 1){
+            j--;
+        }
+        if(i < j) swap(arr[i], arr[j]);
     }
-    PIndex--;
-    return PIndex;
+    swap(arr[low], arr[j]);
+    return j;
 }
 
 void quickSort(int arr[], int low, int high){
-    if (low < high){
-        int pivot = arr[high];
-        int PIndex = partition(arr, low, high, pivot);
+    if(low < high){
+        int PIndex = partition(arr, low, high);
         quickSort(arr, low, PIndex - 1);
         quickSort(arr, PIndex + 1, high);
     }
