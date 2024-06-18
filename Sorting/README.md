@@ -63,12 +63,11 @@ void insertionSort(int arr[], int n){
 </ul>
 
 ```cpp
-void selectionSort(int arr[], int size){
-    int i, j, minIndex;
-    for (i = 0; i < size - 1; i++){
-        minIndex = i;
-        for (j = i + 1; j < size; j++){
-            if (arr[j] < arr[minIndex]){
+void selectionSort(int arr[], int n){
+    for(int i = 0; i < n - 1; i++){
+        int minIndex = i;
+        for(int j = i + 1; j < n; j++){
+            if(arr[j] < arr[minIndex]){
                 minIndex = j;
             }
         }
