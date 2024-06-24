@@ -19,6 +19,7 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/126.%20WordLadderII.cpp">126. Word Ladder II</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/127.%20WordLadder.cpp">127. Word Ladder</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/135.%20Candy.cpp">135. Candy</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/149.%20MaxPointsOnALine.cpp">149. Max Points on a Line</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/154.%20FindMinimumInRotatedSortedArrayII.cpp">154. Find Minimum in Rotated Sorted Array II</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/188.%20BestTimeToBuyAndSellStockIV.cpp">188. Best Time to Buy and Sell Stock IV</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/212.%20WordSearchII.cpp">212. Word Search II</a><br>
