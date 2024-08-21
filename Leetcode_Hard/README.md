@@ -39,6 +39,7 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/726.%20NumberOfAtoms.cpp">726. Number of Atoms</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/815.%20BusRoutes.cpp">815. Bus Routes</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/857.%20MinimumCostToHireKWorkers.cpp">857. Minimum Cost to Hire K Workers</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/987.%20VerticalOrderTraversalOfABinaryTree.cpp">987. Vertical Order Traversal of a Binary Tree</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/992.%20SubarraysWithKDifferentIntegers.cpp">992. Subarrays with K Different Integers</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1074.%20NumberOfSubmatricesThatSumToTarget.cpp">1074. Number of Submatrices That Sum to Target</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1092.%20ShortestCommonSupersequence.cpp">1092. Shortest Common Supersequence</a><br>
