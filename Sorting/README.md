@@ -1,6 +1,11 @@
 # Takeaways 🚀
 <br>
 
+>📌Stable Sorting Algorithm - A stable sorting algorithm is a sorting algorithm that preserves the relative order of elements with equal keys. In other words, if two elements with the same key appear in the input list in a certain order, they will also appear in the same order in the output list.
+
+>📌In-place Sorting Algorithm - An in-place sorting algorithm is a sorting algorithm that sorts the input array in place, without using any additional memory. This means that the algorithm does not need to create a new array to store the sorted elements. In-place sorting algorithms are often used in applications where memory is limited.
+<br>
+
 >Bubble Sort
 <ul>
     <li>Best Case Complexity - O(n) - when list is already sorted</li>
