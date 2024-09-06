@@ -21,7 +21,7 @@ void bubbleSort(int arr[], int n){
     bool swapped;
     for(int i = n - 1; i > 0; --i){
         swapped = false;
-        for(int j = 0; j <= i - 1; j++){
+        for(int j = 0; j <= i - 1; ++j){
             if(arr[j] > arr[j + 1]){
                 swap(arr[j], arr[j + 1]);
                 swapped = true;
@@ -69,9 +69,9 @@ void insertionSort(int arr[], int n){
 
 ```cpp
 void selectionSort(int arr[], int n){
-    for(int i = 0; i < n - 1; i++){
+    for(int i = 0; i < n - 1; ++i){
         int minIndex = i;
-        for(int j = i + 1; j < n; j++){
+        for(int j = i + 1; j < n; ++j){
             if(arr[j] < arr[minIndex]){
                 minIndex = j;
             }
