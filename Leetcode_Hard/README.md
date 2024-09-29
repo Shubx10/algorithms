@@ -31,6 +31,7 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/297.%20SerializeAndDeserializeBinaryTree.cpp">297. Serialize and Deserialize Binary Tree</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/330.%20PatchingArray.cpp">330. Patching Array</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/381.%20InsertDeleteGetRandomO(1)-DuplicatesAllowed.cpp">381. Insert Delete GetRandom O(1) - Duplicates Allowed</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/432.%20AllO'oneDataStructure.cpp">432. All O'one Data Structure</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/446.%20ArithmeticSlicesII-Subsequence.cpp">446. Arithmetic Slices II - Subsequence</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/493.%20ReversePairs.cpp">493. Reverse Pairs</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/502.%20IPO.cpp">502. IPO</a><br>
