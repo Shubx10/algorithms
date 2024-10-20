@@ -47,6 +47,7 @@
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1074.%20NumberOfSubmatricesThatSumToTarget.cpp">1074. Number of Submatrices That Sum to Target</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1092.%20ShortestCommonSupersequence.cpp">1092. Shortest Common Supersequence</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1095.%20FindInMountainArray.cpp">1095. Find In Mountain Array</a><br>
+<a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1106.%20ParsingABooleanExpression.cpp">1106. Parsing A Boolean Expression</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1235.%20MaximumProfitInJobScheduling.cpp">1235. Maximum Profit in Job Scheduling</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1289.%20MinimumFallingPathSumII.cpp">1289. Minimum Falling Path Sum II</a><br>
 <a href="https://github.com/Shubx10/algorithms/blob/main/Leetcode_Hard/1312.%20MinimumInsertionStepsToMakeAStringPalindrome.cpp">1312. Minimum Insertion Steps to Make a String Palindrome</a><br>
